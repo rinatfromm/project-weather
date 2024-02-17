@@ -5,7 +5,7 @@
     padding: 20px;
     max-width: 400px;
     width: 100%;
-    background: $lite-backround;
+    background: var(#{ --components-background-default});
     box-shadow: $box-shadow;
     border-radius: $border-radius;
 }
@@ -25,7 +25,7 @@
     }
     .thisDayName{
         font-size: 40px;
-        color:$lite-color;
+        color:var(#{--text-color-default});
         margin-bottom: 31px;
     }
 }

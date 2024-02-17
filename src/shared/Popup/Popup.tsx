@@ -37,7 +37,7 @@ export default function Popup(props: IPopupProps) {
 
     return (
         <>
-            <div className={styles.blur}></div>
+            {/* <div className={styles.blur}></div>
             <div className={styles.popup}>
                 <div className={styles.day}>
                     <div className={styles.dayTemp}>20˚</div>
@@ -52,7 +52,7 @@ export default function Popup(props: IPopupProps) {
                 <div className={styles.close}>
                     <GlobalSvgSelector id='close' />
                 </div>
-            </div>
+            </div> */}
         </>
     );
 }

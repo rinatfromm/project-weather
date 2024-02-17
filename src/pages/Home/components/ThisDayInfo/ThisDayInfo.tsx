@@ -1,5 +1,5 @@
 import styles from './ThisDayInfo.module.scss'
-import cloud from './../../../../assets/images/Cloud image.svg'
+import cloud from './../../../../assets/images/cloud.svg'
 import ThisDayItem from './ThisDayItem';
 
 export interface IThisDayInfoProps {
