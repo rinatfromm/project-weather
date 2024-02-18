@@ -1,7 +1,7 @@
 import styles from './Header.module.scss'
 import { GlobalSvgSelector } from '../../assets/icons/global/GlobalSvgSelector';
 import Select from 'react-select'
-import { useTheme } from '../../hooks/UseTheme';
+import { useTheme } from '../../hooks/useTheme';
 import { Theme } from '../../context/ThemeContext';
 
 export interface IHeaderProps {
